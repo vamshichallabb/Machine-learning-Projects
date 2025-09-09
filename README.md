@@ -10,7 +10,13 @@ This project uses machine learning to detect fraudulent transactions with a Rand
 - `evaluate_model.py`: Script to evaluate the model’s performance (classification report, ROC AUC, PR AUC).
 - `prediction_model.py`: Script to predict fraud on new transactions.
 - `requirements.txt`: Python dependencies.
-
+- 'Final Fraud detection output.ipynb-Jupyter notebook with final results and visualizations.
+**Transaction Types**:
+- CASH-IN: Depositing cash.
+- CASH-OUT: Withdrawing cash.
+- DEBIT: Decrease in balance or accounting entry.
+- PAYMENT: Transfer for goods/services/debt.
+- TRANSFER: Moving money between accounts.
 ## Requirements
 - Python 3.8+
 - Libraries:
